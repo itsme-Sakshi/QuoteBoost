@@ -1,9 +1,15 @@
-# Introduction
-This is a code repository for the corresponding video tutorial. 
+This project is a React application that generates and displays advisable/motivational quotes using the Advice Slip API. The application is containerized using Docker for easy deployment and portability.
 
-In this video, we will create an interesting react project from scratch - A React Advice App. We're going to use React on the front end and we'll make get requests to Advice Slip JSON API.
-
-By the end of this video, you will have a strong understanding of basic React workflow as well as how to make get requests in React Apps.
+Features
+Real-time Quote Generation: Fetches and displays random motivational quotes with each refresh.
+React-Based Frontend: Built with React to ensure a responsive and interactive user experience.
+API Integration: Utilizes the Advice Slip API for fetching quotes.
+Dockerized Application: Easily deployable using Docker, with a public Docker image available.
 
 Setup:
 - run ```npm i && npm start```
+
+Running via docker:
+- docker pull vsakshi/react-app
+- docker run -p 3000:3000 vsakshi/react-app
+
